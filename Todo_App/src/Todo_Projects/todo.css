@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+.todo_article {
+    background-color: black;
+    margin: 1vw 0;
+    border-radius: 10px;
+    padding: 0.5vw ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo_article h1 {
+    margin-bottom: 0.5vw;
+}
+
+.todo_article p {
+    line-height: 1.5;
+}
+
+.delet_btn {
+    color: red;
+    font-size: 2vw;
+}
